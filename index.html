@@ -370,7 +370,7 @@
             <svg class="modal-icon" width="20" height="18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 4.108 13.892 3 9.5 7.392 5.108 3 4 4.108 8.392 8.5 4 12.892 5.108 14 9.5 9.608 13.892 14 15 12.892 10.608 8.5 15 4.108Z"/></svg>
         </button>
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-        <form class="modal-form">
+        <form class="modal-form" autocomplete="off">
             <div class="modal-field">
         <label class="modal-label" for="user-name">Имя</label>
                 <div class="modal-icon-div">
@@ -402,13 +402,6 @@
         <label class="modal-label" for="modal-text">Комментарий</label>
             <textarea name="modal-text" id="modal-text" class="modal-text" placeholder="Введите текст"></textarea>
             </div>
-            <fieldset>
-                <legend>Size</legend>
-                <label for="big">big</label>
-                <input type="radio" id="big">
-                <label for="small">small</label>
-                <input type="radio" id="small">
-            </fieldset>
             <button type="submit" class="hero-btn modal-btn">Отправить</button>
         </form>
     </div>
